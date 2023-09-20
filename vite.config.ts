@@ -151,7 +151,7 @@ export default defineConfig(({ mode }) => {
           display: 'minimal-ui',
           icons: [
             {
-              src: '/icon.png',
+              src: base + 'icon.png',
               sizes: '180x180',
               type: 'image/png',
             },
