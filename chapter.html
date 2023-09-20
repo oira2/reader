@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    $HEAD_COMMON
+    <title>$PAGE_TITLE</title>
+  </head>
+  <body>
+    <div class="narrow chapter space-vertical">
+      <nav class="site-nav">
+        <a href="/">Home</a>
+
+        <a href="/toc.html">Table of Contents</a>
+
+        <button id="save-for-later" type="button" disabled>
+          Save for Later
+        </button>
+      </nav>
+
+      $CHAPTER_NAV
+
+      <article class="prose">$PAGE_CONTENT</article>
+
+      $CHAPTER_NAV
+    </div>
+
+    <script type="module" src="/src/save-for-later.ts"></script>
+  </body>
+</html>

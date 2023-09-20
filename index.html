@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    $HEAD_COMMON
+    <title>$WORK_TITLE</title>
+  </head>
+  <body>
+    <div class="narrow home space-vertical">
+      <div id="saved-container" class="hidden">
+        <p><strong>You saved a page for later:</strong></p>
+        <p><a id="saved-container-anchor"></a></p>
+      </div>
+
+      <div class="prose">
+        <h1>$WORK_TITLE</h1>
+        <p><strong>Summary</strong></p>
+        $SUMMARY
+      </div>
+
+      <nav>
+        <p><a href="/pages/1.html">Start reading</a></p>
+        <p><a href="/toc.html">Table of Contents</a></p>
+        <p><a href="https://archiveofourown.org/works/49292806" rel="noopener">View on AO3</a></p>
+      </nav>
+    </div>
+
+    <script type="module" src="/src/save-for-later.ts"></script>
+  </body>
+</html>
