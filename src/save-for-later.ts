@@ -23,7 +23,7 @@ if (button) {
     } else {
       localStorage.setItem(storageKey, pathname)
       isSaved = true
-      window.location.href = '/' 
+      window.location.href = '..' 
     }
 
     updateLabel()
