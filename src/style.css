@@ -5,6 +5,17 @@ body {
   margin: 2rem 1rem;
 }
 
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: white; /* Give Chrome something to invert */
+    filter: invert(1);
+  }
+
+  img {
+    filter: invert(1);
+  }
+}
+
 @media (max-width: 56ch) {
   .min-sm {
     display: none;
