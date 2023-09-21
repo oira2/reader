@@ -4,7 +4,7 @@ A low-CSS, low-JS static site builder for chaptered content
 
 ## Usage
 
-To publish your content to GitHub Pages, you'll need to create a separate GitHub repo and include this repo as a [submodule](https://github.blog/2016-02-01-working-with-submodules/). The structure for the content repo should be the same as that of [oira2/bokura](oira2/bokura).
+To publish your content to GitHub Pages, you'll need to create a separate GitHub repo and include this repo as a [submodule](https://github.blog/2016-02-01-working-with-submodules/). The structure for the content repo should be the same as that of [oira2/bokura](https://github.com/oira2/bokura).
 
 ### Repo structure
 
