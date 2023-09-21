@@ -10,7 +10,7 @@ To publish your content to GitHub Pages, you'll need to create a separate GitHub
 
 ```
 .
-├── .github/workflows/delpoy.yml
+├── .github/workflows/deploy.yml
 ├── chapters
 │   ├── 1.html
 │   ├── 2.html
