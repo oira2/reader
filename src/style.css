@@ -38,9 +38,28 @@ body {
   gap: 2em;
 }
 
-h1 {
+.gap-above {
+  margin-top: 2rem;
+}
+
+h1, h2 {
   font-weight: normal;
+  margin-bottom: 1.3rem;
+}
+
+h1 {
+  font-size: 1.8rem;
   margin-top: 0;
+}
+
+h2 {
+  margin-top: 4rem;
+  font-size: 1.6rem;
+}
+
+.after-heading {
+  margin-top: -0.65rem;
+  margin-bottom: 1.3rem;
 }
 
 .site-nav, .chapter-nav {
@@ -62,7 +81,7 @@ h1 {
   text-align: justify;
 }
 
-.prose > h1 {
+.prose > h1, .prose > h2 {
   text-align: center;
 }
 
@@ -76,8 +95,12 @@ h1 {
   line-height: 1.5em;
 }
 
-.prose > h1 + p {
+.prose > h1 + p, .prose > h2 + p, .after-heading + p {
   text-indent: 0;
+}
+
+.prose > h2 > a {
+  color: inherit;
 }
 
 #saved-container {
