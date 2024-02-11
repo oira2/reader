@@ -89,18 +89,37 @@ h2 {
   margin: 1em 0;
 }
 
-.prose > p {
+.prose > p, .prose > .dream > p {
   margin: 0;
   text-indent: 0.3in;
   line-height: 1.5em;
 }
 
-.prose > h1 + p, .prose > h2 + p, .after-heading + p {
+.prose > h1 + p, .prose > h2 + p, .after-heading + p, .dream > p:first-child {
   text-indent: 0;
 }
 
 .prose > h2 > a {
   color: inherit;
+
+.prose > .dream {
+  position: relative;
+  color: white;
+  margin: 0 -1em 1em -1em;
+  padding: 1em;
+}
+
+.prose > .dream::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: black;
+  border-radius: 0.5rem;
+  filter: blur(0.5rem);
 }
 
 #saved-container {
