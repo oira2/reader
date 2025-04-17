@@ -92,7 +92,7 @@ h2 {
 .prose > p, .prose > .dream > p {
   margin: 0;
   text-indent: 0.3in;
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
 
 .prose > h1 + p, .prose > h2 + p, .after-heading + p, .dream > p:first-child {
